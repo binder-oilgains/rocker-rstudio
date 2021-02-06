@@ -110,7 +110,7 @@ CMD ["/init"]
 
 
 
-# bbinder stuff
+# binder stuff
 # Copy your repository contents to the image
 COPY --chown=rstudio:rstudio . ${HOME}
 
